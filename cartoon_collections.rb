@@ -21,7 +21,7 @@ def find_the_cheese(cheese)
   cheese.each{|input| cheese.include?(input)}
    
    
-   binding.pry
+  
    return cheese.first
 
 end
