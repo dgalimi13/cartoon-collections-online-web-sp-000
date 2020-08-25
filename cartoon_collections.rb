@@ -21,8 +21,7 @@ def find_the_cheese(cheese)
   cheese.each do |input| 
   if cheese_types.include?(input)
   return input
-  elsif
-  cheese_types.!include(input)
+else
   return nil
 end
 end
