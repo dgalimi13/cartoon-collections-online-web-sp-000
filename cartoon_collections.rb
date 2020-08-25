@@ -19,9 +19,6 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.each{|input| cheese.include?(input)}
-   
-   
-  
    return cheese.first
 
 end
